@@ -1,0 +1,74 @@
+:root{
+    --blue:#5fafe4
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    text-decoration: none;
+    transition: .2s,linear;
+}
+
+
+html{
+    font-size: 79%;
+    text-size-adjust: 50%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+section{
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+header{
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    width: 100%;
+    background: rgb(255, 245, 217,.75);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem .2rem rgb(0, 0, 0,.2);
+}
+header .nav-content a{
+    font-size: 2rem;
+    color: black;
+}
+header .navbar a{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: black;
+    justify-content: space-between;
+}
+
+header .navbar a:hover{
+    color:var(--blue)
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/atestat/bg5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+table td {
+    border-style: inset;
+    padding: 10px;
+    border-color: rgba(222, 129, 37, 0.5);
+    box-shadow :none;
+    background-color : rgb(255, 245, 217,.50);
+    border-radius: 10px;
+  }
